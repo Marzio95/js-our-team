@@ -136,6 +136,9 @@ function newTeamMates () {
     nomeInLabel.innerHTML = inputNome.value;
     ruoloInLabel.innerHTML = inputRuolo.value;
     contenitoreCarte.append(carta);
+    inputImg.value = '';
+    inputNome.value = '';
+    inputRuolo.value = '';
 }
 
 btnAddMember.addEventListener('click', newTeamMates);
