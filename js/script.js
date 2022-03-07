@@ -44,7 +44,36 @@ const angela = {
     ruolo: 'Chief Editor',
     foto: 'img/angela-caroll-chief-editor.jpg'
 }
-let arrayObject = [warren, angela]
+
+const walter = {
+    nome: 'Walter Gordon',
+    ruolo: 'Office Manager',
+    foto: 'img/walter-gordon-office-manager.jpg'
+}
+
+const angelaL = {
+    nome: 'Angela Lopez',
+    ruolo: 'Social Media Manager',
+    foto: 'img/angela-lopez-social-media-manager.jpg'
+}
+
+
+const scott = {
+    nome: 'Scott Estrada',
+    ruolo: 'Developer',
+    foto: 'img/scott-estrada-developer.jpg'
+}
+
+
+const barbara = {
+    nome: 'Barbara Ramos',
+    ruolo: 'Graphic Designer',
+    foto: 'img/barbara-ramos-graphic-designer.jpg'
+}
+
+ 
+
+let arrayObject = [warren, angela, walter, angelaL, scott, barbara]
 
 
 
